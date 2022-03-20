@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Blog symfony{% endblock %}
+
+{% block body %}
+
+<div class="container mt-5 centralcontent">
+
+    {% for post in posts|reverse %}
+
+    <div class="card flex-row article"><img class="card-img-left example-card-img-responsive img-fluid"
+            src={{ post.lienIMG }} height="30%" width="30%" />
+        <div class="card-body">
+            <h4 class="card-title h5 h4-sm">{{ post.title }}</h4>
+            <p class="card-text">{{ post.text }}</p>
+            <a href="/posts/{{post.id}}" class="btn btn-primary">lire la suite</a>
+        </div>
+    </div>
+
+    {% endfor %}
+
+</div>
+
+{% endblock %}

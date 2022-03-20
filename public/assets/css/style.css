@@ -1,0 +1,25 @@
+.article{
+    margin-bottom: 5%;
+    background-color:white;
+}
+
+body{
+    background-color: #F9F9F9 !important;
+    min-height:100vh;
+  	display:flex;
+  	flex-direction:column;
+}
+
+.centralcontent{
+    width:80% !important;
+}
+
+.imgpostint{
+    width: 70%;
+    height: 70%;
+}
+
+.h1post{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
