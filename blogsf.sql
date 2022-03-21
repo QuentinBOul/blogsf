@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : lun. 21 mars 2022 à 08:27
+-- Généré le : lun. 21 mars 2022 à 09:39
 -- Version du serveur : 5.7.36
 -- Version de PHP : 8.0.13
 
@@ -117,7 +117,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `roles`, `password`) VALUES
-(1, 'Quenthan', '[]', '$2y$13$kBBTOcb4GBImknC6e6OAveEAHE.6p.EEuTPFeN1g4sSglfyLBkUY2'),
+(1, 'Quenthan', '[\"ROLE_ADMIN\"]', '$2y$13$kBBTOcb4GBImknC6e6OAveEAHE.6p.EEuTPFeN1g4sSglfyLBkUY2'),
 (2, 'testeur', '[]', '$2y$13$CxQad1EudtbD6/5IwTUdVuWUssq3pjlIWBv9h5Q/tNOdyK00Nho/m'),
 (3, 'test', '[]', '$2y$13$L16e9R1eDu6DTnHzuatJze/6/UzvceuUpde/yf/DWinBiCFHOyKQ6'),
 (4, 'test2', '[]', '$2y$13$9QIMRA2Ijp8GNeiGvcIzxuWgFAbY.j0KSIWuYr0R52dgo.4iwj2u6'),
