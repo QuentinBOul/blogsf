@@ -12,6 +12,6 @@ Fonctionnalité :
 
 Accès :
 
-Compte admin : quenthan / 123456
-Compte utilisateur : test / 123456
-Nom actuel de la bdd : "blogsf"
+ - Compte admin : quenthan / 123456
+ - Compte utilisateur : test / 123456
+ - Nom actuel de la bdd : "blogsf"
