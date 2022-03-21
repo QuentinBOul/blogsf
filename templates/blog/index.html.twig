@@ -12,8 +12,11 @@
             src={{ post.lienIMG }} height="30%" width="30%" />
         <div class="card-body">
             <h4 class="card-title h5 h4-sm">{{ post.title }}</h4>
-            <p class="card-text">{{ post.text }}</p>
+            <p class="card-text">{{ post.text|slice(0, 30) }}...</p>
             <a href="/posts/{{post.id}}" class="btn btn-primary">lire la suite</a>
+        </div>
+        <div>
+            <span>Publié par <b>{{post.auteur}}</b></span>
         </div>
     </div>
 
